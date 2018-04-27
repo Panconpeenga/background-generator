@@ -1,0 +1,22 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "colorcode gradient",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Panconpeenga/background-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Panconpeenga/background-generator/issues"
+  },
+  "homepage": "https://github.com/Panconpeenga/background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
